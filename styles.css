@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Asap, sans-serif;
+}
+header {
+	font-size: 30px;
+	background: white;
+	padding: 20px;
+	color: #25272E;
+}
+
+body {
+	background: #292C34;
+	text-align: center;
+}
+.result {
+	color: white;
+	font-size: 40px;
+	padding: 30px;
+}
+.result > p {
+	font-weight: bold;
+}
+
+.image {
+	background-image: url("img/scissors.png");
+}
+
+.reset {
+	display: none;
+}
+.blocks{
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#e1,#e4,#e7 {
+	border-bottom: 3px solid #25272E;
+}
+#e4 {
+	border-left: 3px solid #25272E;
+	border-right: 3px solid #25272E;
+}
+#e2,#e5,#e8 {
+	border-bottom: 3px solid #25272E;
+}
+#e5,#e6 {
+	border-left: 3px solid #25272E;
+	border-right: 3px solid #25272E;`
+}
+
+.r1,.r2 ,.r3 {
+	border-radius: 50%;
+	background: white;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin: 0 -1.8px;
+
+}
+.r1:hover,.r2:hover ,.r3:hover {
+	cursor: pointer;
+}
